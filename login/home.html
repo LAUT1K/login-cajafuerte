@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="estilos/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>check_user</title>
+</head>
+<body>
+    <header>
+        
+        
+    <section>
+
+        <div >
+            <h2>Estado Caja</h2><h2 id="mensaje"></h2>
+        <h2 class="cont-h2">PANEL DE CONTROL NUMPAD</h2>
+        </div>
+        <form action="" method="post">
+        <div class="form-box">
+            <div class="form-value">
+                
+                <form action="">
+                    
+                    <!--contenedor formulario-->
+                    <div class="inputbox">
+                        <!--botones de encendido y apagado-->
+                        <button class="on" type="button" id="encendido" onclick="clickBoton1()">Encender</button>
+                        <button class="off" type="button" id="apagado" onclick="clickBoton2()">Apagar</button>
+
+                        
+                        <!-- Cambiar contraseña -->
+                        <button class="onof " id="contraseña" onclick="mostrarInput()">Asignar Contraseña</button>
+                            <div id="contenedorInput" style="display: none;">
+                                
+                                    <input type="password" placeholder="Nueva Contraseña" id="nuevaContraseña" />
+                                    <button onclick="guardarContraseña()">Guardar</button>
+                            </div>
+                        <br><br><br>
+                    </div>                    
+
+                    
+                    
+                    <a href="index.php" class="volver">volver</a>
+                    
+                </form>
+                
+            </div>
+        </div>  
+    </form>
+
+    </section>
+        
+    <script src="main.js"></script>
+    
+</body>
+</html>
